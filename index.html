@@ -1,0 +1,68 @@
+<html>
+	<head>
+
+		<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+		<link rel="stylesheet" href="phone.css">
+		<title>Phone</title>
+		<script type="text/javascript">
+
+		</script>
+	</head>
+	<body>
+		<div class="tab_bar" id="class_1">
+			<button class="buttons" id="button_1">dialer</button>
+			<button class="buttons" id="button_2">Contact List</button>
+			<button class="buttons" id="button_3">Add Contact</button>
+		</div>
+
+		<div class="content" id="class_2">
+			<div class="content_screens" id="content_dialer">
+				<b><h2>&emsp;&emsp;Dialer</h2></b>
+				&emsp;&emsp;<input class="input_box" maxlength="10" type="text" id="dial#">				
+				<div class="return"></div>
+				<button class="key" id="1">1</button>
+				<button class="key" id="2">2</button>
+				<button class="key" id="3">3</button>
+				<div class="return"></div>
+				<button class="key" id="4">4</button>
+				<button class="key" id="5">5</button>
+				<button class="key" id="6">6</button>
+				<div class="return"></div>
+				<button class="key" id="7">7</button>
+				<button class="key" id="8">8</button>
+				<button class="key" id="9">9</button>
+				<div class="return"></div>
+				<button class="key" id="*">*</button>
+				<button class="key" id="0">0</button>
+				<button class="key" id="#">#</button>
+				<div class="return"></div>
+				<button class="dial" id="dial">dial</button>
+				<button class="clear" id="clear">clear</button>
+			</div>
+			<div class="content_screens" id="content_list">
+				<b><h2>&emsp;&emsp;Contact List</h2></b>
+			</div>
+			<div class="content_screebs" id="content_add">
+				<b><h2>&emsp;&emsp;Add Contact</h2></b>
+				&emsp;&emsp;&emsp;Name
+				<div class="return"></div>
+				&emsp;&emsp;&emsp;<input class="input_box"  type="text" id="name">
+				<br />
+				<br />
+				<div class="return"></div>
+				&emsp;&emsp;&emsp;Phone number
+				<div class="return"></div>
+				&emsp;&emsp;&emsp;<input class="input_box"  type="text" id="phone">
+				<br />
+				<br />
+				<div class="return"></div>
+				&emsp;&emsp;&emsp;Email Address
+				<div class="return"></div>
+				&emsp;&emsp;&emsp;<input class="input_box"  type="text" id="email">				
+			</div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="phone.js"></script>
+	</body>
+	
+</html>
